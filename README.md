@@ -17,47 +17,68 @@ The every smart systems and internet connection of things (IoT) are based on mic
 # tPU Instruction Set Architecture
 Example Structure
 - Name(Opcode Operand1 Operand2)
+
 -description  
 
 
 Real Structure
 
 * MOV0 (0000 R(n) direct)
+
  -R(n) <- Mem(direct)
+ 
  -PC <- PC + 1
  
 * MOV1 (0001 R(n) direct)
+
  -Mem(direct) <- R(n)
+ 
  -PC <- PC + 1
  
  * MOV2 (0010 R(n) 0000R(m))
+ 
  -Mem(R(n)) <- R(m)
+ 
  -PC <- PC + 1
  
  * MOV3 (0011 Rn #immed)
+ 
  -R(n) <- #immed
+ 
  -PC <- PC + 1
  
  * ADD (0100 Rn Rm0000)
+ 
  -R(n) <- Mem(direct)
+ 
  -PC <- PC + 1
  
  * SUB (0101 R(n) R(m)0000)
+ 
  -R(n) <- R(n)-{R(m) >> 4}
+ 
  -PC <- PC + 1
  
  * JZ (0110 R(n) (signed)relative)
+ 
  -If R(n) == 0
+ 
  -PC <- PC + 1 + relative
  
  * MUL (0111 R(n) R(m)0000)
+ 
  -R(n) <- R(n)*R(m)
+ 
  -PC <- PC + 1
  
  * MOV4 (1000 R(n) R(m)0000)
+ 
  -R(n) <- R(m)
+ 
  -PC <- PC + 1
  
  * MOV5 (1001 R(n) 0000R(m))
+ 
  -R(n) <- Mem{R(m)}
+ 
  -PC <- PC + 1
