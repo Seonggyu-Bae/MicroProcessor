@@ -37,9 +37,9 @@ Real Structure
  
  * MOV2 (0010 R(n) 0000R(m))
  
-  -Mem(R(n)) <- R(m)
+    -Mem(R(n)) <- R(m)
  
-  -PC <- PC + 1
+   -PC <- PC + 1
  
  * MOV3 (0011 Rn #immed)
  
