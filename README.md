@@ -1,5 +1,5 @@
 # Intro
-All of this contents is Lecture of School of Electronic Engineering, Kyungpook National University 
+All of this contents is Lecture of School of Electronic Engineering, Kyungpook National University by ACES Lab. 
 # MicroProcessor
 
 The every smart systems and internet connection of things (IoT) are based on microcontrollers/microprocessors, which are powered by specially-designed firmware and dedicated hardware. In this lecture, I studied MCU-based approach to program everything around us.  
