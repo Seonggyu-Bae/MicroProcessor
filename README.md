@@ -154,30 +154,18 @@ All of this contents is Lecture of School of Electronic Engineering, Kyungpook N
 
 
 
-### MOV3로 A행렬의 1행 B행렬의1열 입력 후 
-### JZ를 구현하기위해 R14,R15에 0,1값을 입력하고 
-### MOV4로 JZ를 구현할 R10~13의 값 을 0으로 바꾸어 준다
-### 그 후에 메모리에 각 행렬 원소들의 백업을 해주고
-### JZ명령어로 연산과정으로 점프하게 된다
-![architecture](https://postfiles.pstatic.net/MjAyMDExMDZfMTUy/MDAxNjA0NjY5NTMzMzg4.pjpRKvQ5uACP2oJJFmDoxZDFsNGIcDG2s5WHPV_Kn8Eg.3Vvgom2GSStHiuoguvaLHunwbmrZkEV2O1VgeXvHfBIg.PNG.qotjdrb6/image.png?type=w773)
+
+![architecture](https://postfiles.pstatic.net/MjAyMDExMDZfMTI4/MDAxNjA0NjcxMzA5NjIy.diFjp3nHXm_cZtA-lvnfAp9pkFuJOgOL-1cjbP2vJ8Yg.oQV12HsHuymKeE_roNCVdHQQGePnjcJ9ISg09UoTC1og.PNG.qotjdrb6/image.png?type=w773)
 
 
 
-### MUL,ADD연산을 사용하여 C0항이 R5에 저장되었고 
-### JZ명령어를 이용하기위해서 SUB명령어를 사용하여, JZ명령어 조건을 만족하게 만들고 있는 모습이다
-### JZ명령어가 작동하게 되면 연산 된 C0항이 메모리에 저장되고 
-### 다음 C1항 연산을 위한 준비를 하는 라인으로 점프하게 된다
+
+![architecture](https://postfiles.pstatic.net/MjAyMDExMDZfNDgg/MDAxNjA0NjcxNDg1OTEz.1na2F_dkzv6IOrkIGY8xa86qAx0dV8mMLSApp13p-jsg.R9evqqPXUrTJfMNR_qKxdqUD_boA4avNhu2XbmTQNugg.PNG.qotjdrb6/image.png?type=w773)
 
 
-![architecture](https://postfiles.pstatic.net/MjAyMDExMDZfOTQg/MDAxNjA0NjY5NTQ1MzA4.pJ6bqTqKrXWi5BOGXd4W0l9y1A7q2BQsGUDzWSwJeDwg.5zc7LUIltoV8FlRdgXK6D5yJpz2Tjyvm7TIHwNqCz3Ug.PNG.qotjdrb6/image.png?type=w773)
 
+![architecture](https://postfiles.pstatic.net/MjAyMDExMDZfMjEz/MDAxNjA0NjcxNjI5MTYy.RtyhxzgW1ydmN064Wi4qCgJvBwEXM-DlJy3qA5XveEQg.uKLZRPgPEU6xfwfYmz0t_0EeyEOELpT6j3-qA_c1RFwg.PNG.qotjdrb6/image.png?type=w773)
 
-### 이후 C1~C4까지 연산 후 저장하는 과정이다.
-### 이미 한번 작동한 JZ를 명령어를 작동시키지 않아야 
-### 다음 JZ명령어가 작동하여 정상적인 연산을 하기에 
-### MOV4를 이용하여 R15값인 1로 바꾸어 주고 연산 완료된 𝐶_𝑥 값을 메모리에 저장 후 
-### 다음 𝐶_(𝑥+1) 값을 만들기 위하여 MOV3로 값을 입력, MOV1로 백업, JZ로 연산라인까지 반복하게 된다.
-
-![architecture](https://postfiles.pstatic.net/MjAyMDExMDZfMTY5/MDAxNjA0NjY5NTUyNTMw.NpEZlNSlCVLsGOPV1Jivw0NbC0QJTucYELeXrpjPdrMg.fSeSwJQLYTGeqkQzPQ73FkGrYQy828t08FHGCX8ifpUg.PNG.qotjdrb6/image.png?type=w773)
+![architecture](https://postfiles.pstatic.net/MjAyMDExMDZfMjEw/MDAxNjA0NjcxNzQ4MDI0.P2nHTQvT6zQRwqVo1E3Nm2WkzDDZ03mxjlmsqieV0kgg.QBXrF62nKajXd81c_HP0T3WNrvFqXFNmqCbdRm5qsMAg.PNG.qotjdrb6/image.png?type=w773)
 
 The HW3Upgrade.bin 파일은 5X5 행렬 곱 연산을 tPU로 수행하기 위한 binary code 이다.
