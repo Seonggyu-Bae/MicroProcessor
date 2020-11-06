@@ -154,7 +154,7 @@ All of this contents is Lecture of School of Electronic Engineering, Kyungpook N
 
 
 
-### 프로젝트한다고 만들어 놓은 PPT자료에서 가져온 설명입니다.
+### 연산 설명
 
 ![architecture](https://postfiles.pstatic.net/MjAyMDExMDZfMTI4/MDAxNjA0NjcxMzA5NjIy.diFjp3nHXm_cZtA-lvnfAp9pkFuJOgOL-1cjbP2vJ8Yg.oQV12HsHuymKeE_roNCVdHQQGePnjcJ9ISg09UoTC1og.PNG.qotjdrb6/image.png?type=w773)
 
@@ -167,6 +167,9 @@ All of this contents is Lecture of School of Electronic Engineering, Kyungpook N
 
 ![architecture](https://postfiles.pstatic.net/MjAyMDExMDZfMjEz/MDAxNjA0NjcxNjI5MTYy.RtyhxzgW1ydmN064Wi4qCgJvBwEXM-DlJy3qA5XveEQg.uKLZRPgPEU6xfwfYmz0t_0EeyEOELpT6j3-qA_c1RFwg.PNG.qotjdrb6/image.png?type=w773)
 
+
 ![architecture](https://postfiles.pstatic.net/MjAyMDExMDZfMjEw/MDAxNjA0NjcxNzQ4MDI0.P2nHTQvT6zQRwqVo1E3Nm2WkzDDZ03mxjlmsqieV0kgg.QBXrF62nKajXd81c_HP0T3WNrvFqXFNmqCbdRm5qsMAg.PNG.qotjdrb6/image.png?type=w773)
 
-### The HW3Upgrade.bin 파일은 5X5 행렬 곱 연산을 tPU로 수행하기 위한 binary code 입니다.( 위의 MOV,ADD, ... etc 들을 바꿔놓은것임)
+
+### The HW3Upgrade.bin 파일은 5X5 행렬 곱 연산을 tPU로 수행하기 위한 binary code
+### (위의 MOV,ADD, ... etc 들을 이진수로 바꿔놓은것임)
