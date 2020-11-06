@@ -39,54 +39,72 @@ The every smart systems and internet connection of things (IoT) are based on mic
   -R(n) <- Mem(direct)
  
   -PC <- PC + 1
+  
+  -register[n] 에 Memory[direct] 에 있는값을 써주는 명령어
  
 * MOV1 (0001 R(n) direct)
 
   -Mem(direct) <- R(n)
  
   -PC <- PC + 1
+  
+  -Memory[direct] 에 register[n] 에 있는값을 써주는 명령어
  
  * MOV2 (0010 R(n) 0000R(m))
  
     -Mem(R(n)) <- R(m)
  
    -PC <- PC + 1
+   
+   -Memory[R(n)] 에 register[m] 에 있는값을 써주는 명령어
  
  * MOV3 (0011 Rn #immed)
  
     -R(n) <- #immed
  
     -PC <- PC + 1
+    
+    -register[m] 에 원하는 값(#immed)을 써주는 명령어
  
  * ADD (0100 Rn Rm0000)
  
-    -R(n) <- Mem(direct)
+    -R(n) <- R(n) + R(m)
  
     -PC <- PC + 1
+    
+    -register[n] 에 register[n] + register[m]의 값을 써주는 명령어
  
  * SUB (0101 R(n) R(m)0000)
  
     -R(n) <- R(n)-{R(m) >> 4}
  
     -PC <- PC + 1
+    
+    -register[n] 에 register[n] - register[m]의 값을 써주는 명령어
  
  * JZ (0110 R(n) (signed)relative)
  
     -If R(n) == 0
  
     -PC <- PC + 1 + relative
+    
+    -이 명령어를 만나면 R(n)의 값이 0 이라면 (singned)relative 값 만큼 뛰어넘어서 명령어를 실행한다
  
  * MUL (0111 R(n) R(m)0000)
  
-    -R(n) <- R(n)*R(m)
+    -R(n) <- R(n) X R(m)
  
     -PC <- PC + 1
+    
+    -register[n] 에 register[n] X register[m]의 값을 써주는 명령어
  
  * MOV4 (1000 R(n) R(m)0000)
  
     -R(n) <- R(m)
  
     -PC <- PC + 1
+    
+    -register[n] 에 register[m]의 값을 써주는 명령어
  
  * MOV5 (1001 R(n) 0000R(m))
  
@@ -94,7 +112,9 @@ The every smart systems and internet connection of things (IoT) are based on mic
  
     -PC <- PC + 1
     
+    -register[n] 에 memory[R(m)] 의 값을 써주는 명령어
     
-# 명령어 사용 예시
+    
+# tPU 사용 예시
 
 The HW3Upgrade.bin 파일은 5X5 행렬 곱 연산을 tPU로 수행하기 위한 binary code 이다.
