@@ -1,5 +1,6 @@
 # Intro
 경북대학교 전자공학부 박대진 교수님 마이크로프로세서 강의입니다. 
+
 All of this contents is Lecture of School of Electronic Engineering, Kyungpook National University by ACES Lab. 
 
 # Overall Architecture
@@ -136,5 +137,7 @@ All of this contents is Lecture of School of Electronic Engineering, Kyungpook N
     
     
 # tPU 사용 예시
+
+![architecture](https://postfiles.pstatic.net/MjAyMDExMDZfMjY5/MDAxNjA0NjY5NDQ0Mjg5.TInTcn8X4_YD_vmeGKVh245UBpiKUCvZARw7SUcAVe4g.7tCJEJwK8hJY549-BSNZCtAmUSHmf21vfrvAhs0rQZEg.PNG.qotjdrb6/image.png?type=w773)
 
 The HW3Upgrade.bin 파일은 5X5 행렬 곱 연산을 tPU로 수행하기 위한 binary code 이다.
