@@ -154,6 +154,7 @@ All of this contents is Lecture of School of Electronic Engineering, Kyungpook N
 
 
 
+### 프로젝트한다고 만들어 놓은 PPT자료에서 가져온 설명입니다.
 
 ![architecture](https://postfiles.pstatic.net/MjAyMDExMDZfMTI4/MDAxNjA0NjcxMzA5NjIy.diFjp3nHXm_cZtA-lvnfAp9pkFuJOgOL-1cjbP2vJ8Yg.oQV12HsHuymKeE_roNCVdHQQGePnjcJ9ISg09UoTC1og.PNG.qotjdrb6/image.png?type=w773)
 
