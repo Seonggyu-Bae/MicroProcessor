@@ -15,13 +15,14 @@ The every smart systems and internet connection of things (IoT) are based on mic
 
 
 # tPU Instruction Set Architecture
-Example Structure
+
+### Example Structure
 - Name(Opcode Operand1 Operand2)
 
    -description  
 
 
-Real Structure
+### Real Structure
 
 * MOV0 (0000 R(n) direct)
 
