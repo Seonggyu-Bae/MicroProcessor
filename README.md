@@ -16,6 +16,8 @@ The every smart systems and internet connection of things (IoT) are based on mic
 
 # tPU Instruction Set Architecture
 
+### tPU의 명령어들의 이름과 무엇을 수행하는지를 서술하였다.
+
 ### Example Structure
 - Name(Opcode Operand1 Operand2)
 
