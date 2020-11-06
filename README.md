@@ -1,13 +1,7 @@
 # Intro
-경북대학교 마이크로프로세서 강의
+경북대학교 전자공학부 박대진 교수님 마이크로프로세서 강의입니다. 
 All of this contents is Lecture of School of Electronic Engineering, Kyungpook National University by ACES Lab. 
-# MicroProcessor
 
-The every smart systems and internet connection of things (IoT) are based on microcontrollers/microprocessors, which are powered by specially-designed firmware and dedicated hardware. In this lecture, I studied MCU-based approach to program everything around us.  
-
-* learn both hardware and software aspects of integrating digital devices (such as memory and I/O interfaces) into microprocessor-based systems.
-
-* get practical experience in applied digital logic design and 8051, ARM (cortex-m) assembly-language programming.
 # Overall Architecture
 
 ### Code Memory(program [0:1023])를 읽어와서 
