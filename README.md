@@ -144,20 +144,22 @@ All of this contents is Lecture of School of Electronic Engineering, Kyungpook N
 
 ### 이해를 못해서 그냥 있는 명령어들만 사용했다
 
-
-### 수행해야할 행렬 연산 
 ### 모든 행렬은 메모리에 저장되어 있어야하고
+
 ### JZ 명령어를 이용해 Loop 형태로 프로그램을 작성하여야함
 
+
+
 ![architecture](https://postfiles.pstatic.net/MjAyMDExMDZfMjY5/MDAxNjA0NjY5NDQ0Mjg5.TInTcn8X4_YD_vmeGKVh245UBpiKUCvZARw7SUcAVe4g.7tCJEJwK8hJY549-BSNZCtAmUSHmf21vfrvAhs0rQZEg.PNG.qotjdrb6/image.png?type=w773)
+### 수행해야할 행렬 연산
+
+
+![architecture](https://postfiles.pstatic.net/MjAyMDExMDZfMTUy/MDAxNjA0NjY5NTMzMzg4.pjpRKvQ5uACP2oJJFmDoxZDFsNGIcDG2s5WHPV_Kn8Eg.3Vvgom2GSStHiuoguvaLHunwbmrZkEV2O1VgeXvHfBIg.PNG.qotjdrb6/image.png?type=w773)
 
 ### MOV3로 A행렬의 1행 B행렬의1열 입력 후 
 ### JZ를 구현하기위해 R14,R15에 0,1값을 입력하고 
 ### MOV4로 JZ를 구현할 R10~13의 값 을 0으로 바꾸어 준다
 ### 그 후에 메모리에 각 행렬 원소들의 백업을 해주고
 ### JZ명령어로 연산과정으로 점프하게 된다
-
-![architecture](https://postfiles.pstatic.net/MjAyMDExMDZfMTUy/MDAxNjA0NjY5NTMzMzg4.pjpRKvQ5uACP2oJJFmDoxZDFsNGIcDG2s5WHPV_Kn8Eg.3Vvgom2GSStHiuoguvaLHunwbmrZkEV2O1VgeXvHfBIg.PNG.qotjdrb6/image.png?type=w773)
-
 
 The HW3Upgrade.bin 파일은 5X5 행렬 곱 연산을 tPU로 수행하기 위한 binary code 이다.
