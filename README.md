@@ -162,4 +162,13 @@ All of this contents is Lecture of School of Electronic Engineering, Kyungpook N
 ![architecture](https://postfiles.pstatic.net/MjAyMDExMDZfMTUy/MDAxNjA0NjY5NTMzMzg4.pjpRKvQ5uACP2oJJFmDoxZDFsNGIcDG2s5WHPV_Kn8Eg.3Vvgom2GSStHiuoguvaLHunwbmrZkEV2O1VgeXvHfBIg.PNG.qotjdrb6/image.png?type=w773)
 
 
+
+### MUL,ADD연산을 사용하여 C0항이 R5에 저장되었고 
+### JZ명령어를 이용하기위해서 SUB명령어를 사용하여,  JZ명령어 조건을 만족하게 만들고 있는 모습이다
+### JZ명령어가 작동하게 되면 연산 된 C0항이 메모리에 저장되고 다음 C1항 연산을 위한 준비를 하는 라인으로 점프하게 된다
+
+
+![architecture](https://postfiles.pstatic.net/MjAyMDExMDZfOTQg/MDAxNjA0NjY5NTQ1MzA4.pJ6bqTqKrXWi5BOGXd4W0l9y1A7q2BQsGUDzWSwJeDwg.5zc7LUIltoV8FlRdgXK6D5yJpz2Tjyvm7TIHwNqCz3Ug.PNG.qotjdrb6/image.png?type=w773)
+
+
 The HW3Upgrade.bin 파일은 5X5 행렬 곱 연산을 tPU로 수행하기 위한 binary code 이다.
