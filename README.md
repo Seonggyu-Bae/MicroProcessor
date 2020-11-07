@@ -5,12 +5,12 @@ All of this contents is Lecture of School of Electronic Engineering, Kyungpook N
 
 # Overall Architecture
 
-### Code Memory(program [0:1023])를 읽어와서 
-### tCPU 내부에 있는 Decode unit 을 사용해 프로그램을 해석하고 
-### Execute Unit 을 통해 실행하는 기본적인? 16-bit CPU의 구조 
-### 연산은 register[0:15] 에서 이루어지며 
-### register 의 저장공간이 모자랄 경우 
-## memory[0:255]에 저장을 해놓고 다시 가져다 사용하는 방식 
+> Code Memory(program [0:1023])를 읽어와서 
+> tCPU 내부에 있는 Decode unit 을 사용해 프로그램을 해석하고 
+> Execute Unit 을 통해 실행하는 기본적인? 16-bit CPU의 구조 
+> 연산은 register[0:15] 에서 이루어지며 
+> register 의 저장공간이 모자랄 경우 
+> memory[0:255]에 저장을 해놓고 다시 가져다 사용하는 방식 
 
 ![architecture](https://postfiles.pstatic.net/MjAxOTExMDNfMTY1/MDAxNTcyNzY3ODMzNzc0.5Mz3m21dOhMzQAdHE9PVigBKasavHoi3RNSF9SAptXQg.xi4BIU14P3cpNUg2DvfNizFGUybfiY8bCILdPJontwEg.PNG.qotjdrb6/%EC%BA%A1%EC%B2%98.PNG?type=w773)
 
