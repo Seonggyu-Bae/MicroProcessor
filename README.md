@@ -171,6 +171,6 @@ All of this contents is Lecture of School of Electronic Engineering, Kyungpook N
 ![architecture](https://postfiles.pstatic.net/MjAyMDExMDZfMjEw/MDAxNjA0NjcxNzQ4MDI0.P2nHTQvT6zQRwqVo1E3Nm2WkzDDZ03mxjlmsqieV0kgg.QBXrF62nKajXd81c_HP0T3WNrvFqXFNmqCbdRm5qsMAg.PNG.qotjdrb6/image.png?type=w773)
 
 
-### The HW3Upgrade.bin 파일은 5X5 행렬 곱 연산을 tPU로 수행하기 위한 binary code
+### [The HW3Upgrade.bin] (https://github.com/Seonggyu-Bae/MicroProcessor/blob/master/HW3Upgrade.bin) 파일은 5X5 행렬 곱 연산을 tPU로 수행하기 위한 binary code
 ### (위의 MOV,ADD, ... etc 들을 이진수로 바꿔놓은것임)
 ### (당연히 binary code 로 바꿔야 tPU가 알아먹고 실행을 해준다)
