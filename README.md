@@ -36,6 +36,8 @@ memory[0:255]에 저장을 해놓고 다시 가져다 사용하는 방식
 
 ### Real Structure
 
+[코드보기] (https://github.com/Seonggyu-Bae/MicroProcessor/blob/master/CExecute.cpp)
+
 * MOV0 (0000 R(n) direct)
 
 
