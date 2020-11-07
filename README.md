@@ -7,7 +7,7 @@ All of this contents is Lecture of School of Electronic Engineering, Kyungpook N
 
 Code Memory(program [0:1023])를 읽어와서
 
-tCPU 내부에 있는 [Decode unit](https://github.com/Seonggyu-Bae/MicroProcessor/blob/master/CExecute.cpp) 을 사용해 프로그램을 해석하고 
+tCPU 내부에 있는 [Decode unit](https://github.com/Seonggyu-Bae/MicroProcessor/blob/master/CDecode.cpp) 을 사용해 프로그램을 해석하고 
 
 [Execute Unit](https://github.com/Seonggyu-Bae/MicroProcessor/blob/master/CExecute.cpp) 을 통해 실행하는 기본적인? 16-bit CPU의 구조 
 
